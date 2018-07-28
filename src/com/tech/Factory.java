@@ -24,7 +24,7 @@ public class Factory {
 	
 	public static void main(String[] args) {
 
-		System.out.println("Numbers of products in factory before started:"+prodList.size());
+		System.out.println("Number of products in factory before starte:"+prodList.size());
 
 
 		new Factory().buildProducts(10, 5, 60000);
