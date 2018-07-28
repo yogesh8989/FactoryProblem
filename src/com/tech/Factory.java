@@ -23,7 +23,7 @@ public class Factory {
 	public static List<Product> prodList = new CopyOnWriteArrayList<>();
 	
 	public static void main(String[] args) {
-		System.out.println("Number of products in factory before start:"+prodList.size());
+		System.out.println("Numbers of products in factory before start:"+prodList.size());
 		new Factory().buildProducts(10, 5, 60000);
 		printNumberOfProd();
 	}
